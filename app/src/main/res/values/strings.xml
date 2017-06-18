@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HumRecipe</string>
+
+    <!--the single screen text headers -->
+    <string name="text_description">Description</string>
+    <string name="text_ingredients">Ingredients</string>
+    <string name="text_instruction">Instruction</string>
+
+</resources>

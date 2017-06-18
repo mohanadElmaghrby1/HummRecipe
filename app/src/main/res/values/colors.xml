@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4e342e</color>
+    <color name="colorPrimaryDark">#260e04</color>
+    <color name="colorAccent">#7b5e57</color>
+
+    <!--the main activity background color-->
+    <color name="main_activity_background_color">#55262626</color>
+</resources>

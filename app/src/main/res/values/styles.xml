@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--style main activity category-->
+    <style name="main_activity_category">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/main_activity_background_color</item>
+        <item name="android:padding">@dimen/category_padding</item>
+        <item name="android:layout_marginTop">@dimen/category_padding</item>
+        <item name="android:textSize">@dimen/category_text_size</item>
+    </style>
+
+    <!--style the recipe title-->
+    <style name="recipe_title">
+        <item name="android:textSize">@dimen/text_header_size</item>
+        <item name="android:paddingLeft">@dimen/text_header_padding</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <!--style the recipe category-->
+    <style name="recipe_category">
+        <item name="android:textSize">@dimen/text_header_size</item>
+        <item name="android:paddingLeft">@dimen/text_header_padding</item>
+        <item name="android:paddingBottom">@dimen/text_header_padding</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+    <!--style the single recipe screen text headers-->
+    <style name="single_recipe_text_header">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_header_size</item>
+        <item name="android:padding">@dimen/text_header_padding</item>
+    </style>
+
+    <!--style the recipe details-->
+    <style name="recipe_detail_style">
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+</resources>
